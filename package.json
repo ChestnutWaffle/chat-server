@@ -6,9 +6,19 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "elysia": "latest"
+    "@elysiajs/cors": "^1.1.0",
+    "@elysiajs/jwt": "^1.1.0",
+    "@neondatabase/serverless": "^0.9.4",
+    "@paralleldrive/cuid2": "^2.2.2",
+    "@prisma/adapter-neon": "^5.18.0",
+    "@prisma/client": "^5.18.0",
+    "elysia": "latest",
+    "prisma": "^5.18.0",
+    "server": "file:",
+    "ws": "^8.18.0"
   },
   "devDependencies": {
+    "@types/ws": "^8.5.12",
     "bun-types": "latest"
   },
   "module": "src/index.js"
